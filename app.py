@@ -37,7 +37,3 @@ def submit():
             answerValue = "The imaginary roots are " + ans1 + " and " + ans2
             return redirect(url_for("answer", roots=answerValue))
 
-
-
-if __name__ == "__main__":
-    app.run()
